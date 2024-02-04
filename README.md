@@ -17,7 +17,8 @@ Provide insights and recommendations based on the sentiment analysis.
 Assumptions
 Sample size of 5K examples is assumed to be sufficient.
 Information in text reviews is expected to be rich enough for sentiment analysis.
-Data Collection
+<h5>Data Collection<h5> 
+
 Description of the dataset collected from Data.word.org.
 Details about the gaming products from GameStop.
 Exploratory Data Analysis (EDA)
