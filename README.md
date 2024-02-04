@@ -21,26 +21,30 @@ Information in text reviews is expected to be rich enough for sentiment analysis
 
 Description of the dataset collected from Data.word.org.
 Details about the gaming products from GameStop.
-Exploratory Data Analysis (EDA)
+
+<h5>Exploratory Data Analysis (EDA)<h5>
 Utilized Pandas, Matplotlib, Seaborn for analysis.
 Visualized data distribution, brand frequencies, and ratings counts.
 Data Splitting (Train/Test)
 Split the data into training and test sets using Stratified Shuffle Split.
-Data Exploration in Training Set
+
+<h5>Data Exploration in Training Set<h5>
 Explored reviews, brand frequencies, and average ratings.
-Sentiment Analysis
+  
+<h6>Sentiment Analysis<h6>
 Used Multinomial Naive Bayes, Logistic Regression, Linear SVC, Decision Tree, and Random Forest classifiers.
-Feature Extraction
+
+<h6>Feature Extraction<h6>
 Utilized Bag of Words strategy and TfidfTransformer for feature extraction.
-Model Testing
+
+<h6>Model Testing<h6>
 Tested multiple classifiers and selected Support Vector Machine (SVM) with the highest accuracy.
-Model Fine-Tuning
+
+<h6>Model Fine-Tuning<h6>
 Conducted Grid Search to find optimal parameters for SVM.
 Results
 Evaluated the final classifier's accuracy and provided a classification report.
 Confusion matrix visualization for a detailed overview of the results.
-Conclusion
-Summarized findings, insights, and the overall success of the sentiment analysis project.
 
 Future Enhancements
 Suggested improvements, potential additional features, or areas for further exploration
