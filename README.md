@@ -1,50 +1,68 @@
-# Sentiment-Analysis-on-Gaming-Products
+<h1>Sentiment Analysis on Gaming Products</h1>
 
+<h2>Overview</h2>
 
-<p1>Overview<p1>
+<p>Brief introduction to the project, highlighting the purpose and significance of sentiment analysis on gaming product reviews.</p>
 
-Brief introduction to the project, highlighting the purpose and significance of sentiment analysis on gaming product reviews.
+<h3>Business Problem</h3>
 
-Business Problem
-Questions Addressed:
-Identify brands with higher reviews.
-Determine which brands' products are mostly recommended.
-Analyze sentiments for each gaming product.
-Business Solutions
-Associating positive and negative words/sentiments for each gaming product using sentiment analysis.
-Potential Suggestions for Product Reviews
-Provide insights and recommendations based on the sentiment analysis.
-Assumptions
-Sample size of 5K examples is assumed to be sufficient.
-Information in text reviews is expected to be rich enough for sentiment analysis.
-<h5>Data Collection<h5> 
+<p><strong>Questions Addressed:</strong></p>
+<ul>
+  <li>Identify brands with higher reviews.</li>
+  <li>Determine which brands' products are mostly recommended.</li>
+  <li>Analyze sentiments for each gaming product.</li>
+</ul>
 
-Description of the dataset collected from Data.word.org.
-Details about the gaming products from GameStop.
+<h3>Business Solutions</h3>
 
-<h5>Exploratory Data Analysis (EDA)<h5>
-Utilized Pandas, Matplotlib, Seaborn for analysis.
-Visualized data distribution, brand frequencies, and ratings counts.
-Data Splitting (Train/Test)
-Split the data into training and test sets using Stratified Shuffle Split.
-
-<h5>Data Exploration in Training Set<h5>
-Explored reviews, brand frequencies, and average ratings.
+<p>Associating positive and negative words/sentiments for each gaming product using sentiment analysis.</p>
   
-<h6>Sentiment Analysis<h6>
-Used Multinomial Naive Bayes, Logistic Regression, Linear SVC, Decision Tree, and Random Forest classifiers.
+<h3>Assumptions</h3>
 
-<h6>Feature Extraction<h6>
-Utilized Bag of Words strategy and TfidfTransformer for feature extraction.
+<ul>
+  <li>Sample size of 5K examples is assumed to be sufficient.</li>
+  <li>Information in text reviews is expected to be rich enough for sentiment analysis.</li>
+</ul>
 
-<h6>Model Testing<h6>
-Tested multiple classifiers and selected Support Vector Machine (SVM) with the highest accuracy.
+<h2>Data Collection</h2>
 
-<h6>Model Fine-Tuning<h6>
-Conducted Grid Search to find optimal parameters for SVM.
-Results
-Evaluated the final classifier's accuracy and provided a classification report.
-Confusion matrix visualization for a detailed overview of the results.
+<p>Description of the dataset collected from Data.word.org.</p>
+<p>Details about the gaming products from GameStop.</p>
 
-Future Enhancements
-Suggested improvements, potential additional features, or areas for further exploration
+<h2>Exploratory Data Analysis (EDA)</h2>
+
+<p>Utilized Pandas, Matplotlib, Seaborn for analysis.</p>
+<p>Visualized data distribution, brand frequencies, and ratings counts.</p>
+
+<h2>Data Splitting (Train/Test)</h2>
+
+<p>Split the data into training and test sets using Stratified Shuffle Split.</p>
+
+<h2>Data Exploration in Training Set</h2>
+
+<p>Explored reviews, brand frequencies, and average ratings.</p>
+  
+<h3>Sentiment Analysis</h3>
+
+<p>Used Multinomial Naive Bayes, Logistic Regression, Linear SVC, Decision Tree, and Random Forest classifiers.</p>
+
+<h3>Feature Extraction</h3>
+
+<p>Utilized Bag of Words strategy and TfidfTransformer for feature extraction.</p>
+
+<h3>Model Testing</h3>
+
+<p>Tested multiple classifiers and selected Support Vector Machine (SVM) with the highest accuracy.</p>
+
+<h3>Model Fine-Tuning</h3>
+
+<p>Conducted Grid Search to find optimal parameters for SVM.</p>
+
+<h2>Results</h2>
+
+<p>Evaluated the final classifier's accuracy and provided a classification report.</p>
+<p>Confusion matrix visualization for a detailed overview of the results.</p>
+
+<h2>Future Enhancements</h2>
+
+<p>Suggested improvements, potential additional features, or areas for further exploration.</p>
